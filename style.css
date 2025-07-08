@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background: #000;
+    padding: 20px 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    color: aliceblue;
+    margin: auto;
+}
+header,h1{
+    font-weight: 800;
+    font-size: medium;
+}
+header,ul{
+    display: flex;
+    gap: 10px;
+    font-size: medium;
+    font-weight: 500;
+}
+header,ul,li{
+    list-style: none;
+}
+section{
+    max-width: 50%;
+    text-align: center;
+    padding: 30px 0;
+    margin: auto;
+    font-size: 2rem;
+    line-height: 2;
+}
+button{
+    background-color: grey;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
